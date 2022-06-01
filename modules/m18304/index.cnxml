@@ -1,0 +1,28 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Rational Expression Concepts -- Introduction</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18304</md:content-id>
+  <md:title>Rational Expression Concepts -- Introduction</md:title>
+  <md:abstract>This module provides an introduction to rational expressions.</md:abstract>
+  <md:uuid>0e096fc6-dd59-4998-b1a0-896c11c48b87</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/rational-expressions-and-functions/t/definition-and-domain-of-a-rational-expression" strength="3">Rational Expressions Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/rational-expressions-and-functions/t/introduction-to-rational-functions" strength="3">Rational Functions Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="id10297664">The term “rational” in math is not used in the sense of “sane” or “sensible.” It is instead used to imply a <emphasis>ratio</emphasis>, or fraction. A <emphasis>rational expression</emphasis> is the ratio of two polynomials: for instance, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {x rSup { size 8{2} } +1}  over  {x rSup { size 8{2} }  - 1} } } {}</m:annotation></m:semantics></m:math> is a rational expression.</para>
+    <para id="id10616486">There are two rules for working with rational expressions.</para>
+    <list id="id10363113" list-type="enumerated">
+      <item>Begin every problem by factoring everything you can.</item>
+      <item>Remember that, despite all the complicated looking functions, a rational expression is just a fraction: you manipulate them using all the rules of fractions that you are familiar with.</item>
+    </list>
+  </content>
+</document>

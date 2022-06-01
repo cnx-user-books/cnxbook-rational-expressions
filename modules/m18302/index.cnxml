@@ -1,0 +1,350 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Rational Expression Concepts -- Rational Equations</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m18302</md:content-id>
+  <md:title>Rational Expression Concepts -- Rational Equations</md:title>
+  <md:abstract>This module introduces rational expressions in equations.</md:abstract>
+  <md:uuid>bb51f763-9cfc-4f10-a835-523796a4c2e4</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/rational-expressions-and-functions/t/solving-a-rational-equation" strength="3">Solving a Rational Equation Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra-2/u/rational-expressions-and-functions/t/solving-a-rational-equation-for-a-parameter" strength="3">Solving Equations with Rational Numbers Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/rational-expressions-and-functions/t/solving-rational-equations-with-like-denominators" strength="3">Solving Rational Equations Video</link>
+      <link url="http://www.brightstorm.com/d/math/s/algebra/u/rational-expressions-and-functions/t/solving-rational-equations-with-unlike-denominators" strength="3">Solving Rational Equations with Unlike Denominators Video</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <section id="id10855981"><title>Rational Equations</title>
+      
+      <para id="id12625945">A <emphasis>rational equation</emphasis> means that you are setting two rational <emphasis>expressions</emphasis> equal to each other. The goal is to solve for x; that is, find the x value(s) that make the equation true.</para>
+      <para id="id13336015">Suppose I told you that:</para>
+      <equation id="id14298984">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mi>x</m:mi>
+                      <m:mn>8</m:mn>
+                    </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>3</m:mn>
+                      <m:mn>8</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  {x}  over  {8} } = {  {3}  over  {8} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id14591967">If you think about it, the x in this equation has to be a 3. That is to say, if x=3 then this equation is true; for any other x value, this equation is false.</para>
+      <para id="id13557200">This leads us to a very general rule.</para>
+      <para id="id11520844">A very general rule about rational equations</para>
+      <para id="id12985925">If you have a rational equation where the <emphasis>denominators</emphasis> are the same, then the <emphasis>numerators</emphasis> must be the same.</para>
+      <para id="id6263865">This in turn suggests a strategy: find a common denominator, and then set the numerators equal.</para>
+      <table id="id13388524" summary="This is a table showing the steps to take when evaluating a rational equation.">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+            <row>
+              <entry namest="c1" nameend="c2">Example: Rational Equation</entry>
+            </row>
+</thead>
+<tbody>
+            <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mn>3</m:mn>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mi>x</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mtext>12</m:mtext>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mtext>36</m:mtext>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mfrac>
+                              <m:mn>4x</m:mn>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:msup>
+                                      <m:mi>x</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>3</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:msup>
+                                      <m:mn>4x</m:mn>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mtext>12</m:mtext>
+                                </m:mrow>
+                                <m:mi>x</m:mi>
+                              </m:mrow>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {x rSup { size 8{2} } +"12"x+"36"} } = {  {4x}  over  {x rSup { size 8{3} } +4x rSup { size 8{2} }  - "12"x} } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>
+                <emphasis>Same problem we worked before, but now we are equating these two fractions, instead of subtracting them.</emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mn>3</m:mn>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mn>6</m:mn>
+                                </m:mrow>
+                                <m:msup>
+                                  <m:mo stretchy="false">)</m:mo>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mn>4x</m:mn>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mn>6</m:mn>
+                                </m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mn>6</m:mn>
+                                </m:mrow>
+                                <m:msup>
+                                  <m:mo stretchy="false">)</m:mo>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{ {  {3 \( x \)  \( x - 2 \) }  over  { \( x+6 \)  rSup { size 8{2} }  \( x \)  \( x - 2 \) } } = {  {4x \( x+6 \) }  over  {x \( x+6 \)  rSup { size 8{2} }  \( x - 2 \) } } } {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>
+                <emphasis>Rewrite both fractions with the common denominator.</emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>
+<m:math>
+<m:mn>3</m:mn>
+<m:mi>x</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>-</m:mo>
+<m:mn>2</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>4</m:mn>
+<m:mi>x</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>6</m:mn>
+<m:mo>)</m:mo>
+</m:math></entry>
+              <entry>
+                <emphasis>Based on the rule above—since the denominators are equal, we can now assume the numerators are equal.</emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>
+<m:math>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>6</m:mn>
+<m:mo>x</m:mo>
+<m:mo>=</m:mo>
+<m:mn>4</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>24</m:mn>
+<m:mi>x</m:mi>
+</m:math></entry>
+              <entry>
+                <emphasis>Multiply it out</emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>
+<m:math>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo>
+<m:mn>30</m:mn>
+<m:mi>x</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math></entry>
+              <entry>
+                <emphasis>What we’re dealing with, in this case, is a quadratic equation. As always, move everything to one side...</emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>
+<m:math>
+<m:mi>x</m:mi>
+<m:mo>(</m:mo>
+<m:mi>x</m:mi>
+<m:mo>+</m:mo>
+<m:mn>30</m:mn>
+<m:mo>)</m:mo>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math></entry>
+              <entry>
+                <emphasis>...and then factor. A common mistake in this kind of problem is to divide both sides by <m:math><m:mi>x</m:mi></m:math>; this loses one of the two solutions.</emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math>
+<m:mi style="text-decoration: line-through;">x=</m:mi>
+  <m:mn style="text-decoration: line-through;">0</m:mn>
+                </m:math> <emphasis> or </emphasis> 
+<m:math>
+<m:mi style="text-decoration: underline;">x=</m:mi>
+  <m:mn style="text-decoration: underline;">-30</m:mn>
+</m:math>
+
+              </entry>
+              <entry>
+                <emphasis>Two solutions to the quadratic equation. However, in this case, <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math> is not valid, since it was not in the domain of the original right-hand fraction. (Why?) So this problem actually has only one solution, <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>30</m:mn></m:math>.</emphasis>
+              </entry>
+            </row>
+          </tbody>
+      
+      
+        </tgroup>
+      
+      
+      
+      </table>
+      <para id="id13557526">As always, it is vital to remember what we have found here. We started with the equation 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mtext>12</m:mtext></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>36</m:mtext></m:mrow></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>4x</m:mn><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mn>4x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>12</m:mtext></m:mrow><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {x rSup { size 8{2} } +"12"x+"36"} } = {  {4x}  over  {x rSup { size 8{3} } +4x rSup { size 8{2} }  - "12"x} } } {}</m:annotation></m:semantics></m:math>. We have concluded now that if you plug <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>30</m:mn></m:math> into that equation, you will get a true equation (you can verify this on your calculator). For any other value, this equation will evaluate false.</para>
+      <para id="id14472482">To put it another way: if you graphed the functions 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>3</m:mn><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mtext>12</m:mtext></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mtext>36</m:mtext></m:mrow></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3}  over  {x rSup { size 8{2} } +"12"x+"36"} } } {}</m:annotation></m:semantics></m:math> and 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mn>4x</m:mn><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mn>4x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>12</m:mtext></m:mrow><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {4x}  over  {x rSup { size 8{3} } +4x rSup { size 8{2} }  - "12"x} } } {}</m:annotation></m:semantics></m:math>, the two graphs would intersect at one point only: the point when <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>30</m:mn></m:math>.</para>
+    </section>
+  </content>
+</document>

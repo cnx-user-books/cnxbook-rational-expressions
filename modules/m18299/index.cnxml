@@ -1,0 +1,762 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Rational Expression Concepts -- Dividing Polynomials</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>9a7eb8d1-a9cb-4371-94e9-75247eb28430</md:uuid>
+</metadata>
+  <content>
+    <para id="id7632326">Simplifying, multiplying, dividing, adding, and subtracting rational expressions are all based on the basic skills of working with fractions. Dividing polynomials is based on an even earlier skill, one that pretty much everyone remembers with horror: long division.</para>
+    <para id="id7632337">To refresh your memory, try dividing 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>745</m:mtext><m:mn>3</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"745"}  over  {3} } } {}</m:annotation></m:semantics></m:math> by hand. You should end up with something that looks something like this:</para>
+    
+    
+    <para id="element-223"><media id="idp374448" alt=""><image src="../../media/equation1.png" mime-type="image/png"/></media></para><para id="id3241772">So we conclude that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>745</m:mtext><m:mn>3</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"745"}  over  {3} } } {}</m:annotation></m:semantics></m:math> is 248 with a remainder of 1; or, to put it another way, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mtext>745</m:mtext><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">=</m:mo><m:mtext>248</m:mtext></m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"745"}  over  {3} } ="248" {  {1}  over  {3} } } {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="id3235671">You may have decided years ago that you could forget this skill, since calculators will do it for you. But now it comes roaring back, because here is a problem that your calculator will not solve for you: 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mrow><m:mrow><m:msup><m:mn>6x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mn>8x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>4x</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {6x rSup { size 8{3} }  - 8x rSup { size 8{2} } +4x - 2}  over  {2x - 4} } } {}</m:annotation></m:semantics></m:math>. You can solve this problem in much the same way as the previous problem.</para>
+    <example id="idm6664288">
+      
+
+    <table id="id3242037" summary="">
+<title>Polynomial Division</title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mn>6x</m:mn>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>3</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:msup>
+                                  <m:mn>8x</m:mn>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mrow>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mn>4x</m:mn>
+                            </m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mn>2x</m:mn>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {  {6x rSup { size 8{3} }  - 8x rSup { size 8{2} } +4x - 2}  over  {2x - 4} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <emphasis>The problem</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <media id="idm4680224" alt=""><image src="../../media/graphics1-a9e8.png" mime-type="image/png"/></media>
+            </entry>
+            <entry>
+              <emphasis>The problem, written in standard long division form.</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <media id="idm2926608" alt=""><image src="../../media/graphics2-cf3c.png" mime-type="image/png"/></media>
+            </entry>
+            <entry>
+              <emphasis>Why 
+<m:math>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>? This comes from the question: “How many times does 
+<m:math>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:math> go into 
+<m:math>
+<m:mn>6</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+</m:math>?” Or, to put the same question another way: “What would I multiply 
+<m:math>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:math> by, in order to get 
+<m:math>
+<m:mn>6</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+</m:math>?” This is comparable to the first step in our long division problem: “What do I multiply 3 by, to get 7?”</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <media id="idm13564912" alt=""><image src="../../media/graphics3-4e5f.png" mime-type="image/png"/></media>
+            </entry>
+            <entry>
+              <emphasis>Now, multiply the 
+<m:math>
+<m:mn>3</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math> times the 
+<m:math>
+<m:mo>(</m:mo>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+<m:mo>–</m:mo>
+<m:mn>4</m:mn>
+<m:mo>)</m:mo>
+</m:math> and you get 
+<m:math>
+<m:mn>6</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mn>12</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>. Then subtract this from the line above it. The 
+<m:math>
+<m:mn>6</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>3</m:mn>
+</m:msup>
+</m:math> terms cancel—that shows we picked the right term above! Note that you have to be careful with signs here. 
+<m:math>
+<m:mn>–8</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>–</m:mo>
+<m:mo>(</m:mo>
+<m:mn>–12</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>)</m:mo>
+</m:math> gives us positive 
+<m:math>
+<m:mn>4</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>.</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <media id="idm3939424" alt=""><image src="../../media/graphics4.png" mime-type="image/png"/></media>
+            </entry>
+            <entry>
+              <emphasis>Bring down the 
+<m:math>
+<m:mn>4</m:mn>
+<m:mi>x</m:mi>
+</m:math>. We have now gone through all four steps of long division—divide, multiply, subtract, and bring down. At this point, the process begins again, with the question “How many times does 
+<m:math>
+<m:mn>2</m:mn>
+<m:mi>x</m:mi>
+</m:math> go into 
+<m:math>
+<m:mn>4</m:mn>
+<m:msup>
+<m:mi>x</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+</m:math>?”</emphasis>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <media id="idp5937600" alt=""><image src="../../media/graphics5.png" mime-type="image/png"/></media>
+            </entry>
+            <entry>
+              <emphasis>This is not the next step...this is what the process looks like after you’ve finished all the steps. You should try going through it yourself to make sure it ends up like this.</emphasis>
+            </entry>
+          </row>
+        </tbody>
+      
+
+
+</tgroup>
+</table>
+    </example>
+    <para id="id3241972">So we conclude that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mrow><m:mrow><m:mrow><m:msup><m:mn>6x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mn>8x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>4x</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {6x rSup { size 8{3} }  - 8x rSup { size 8{2} } +4x - 2}  over  {2x - 4} } } {}</m:annotation></m:semantics></m:math> is 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mn>3x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>2x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3x rSup { size 8{2} } +2x+6} {}</m:annotation></m:semantics></m:math> with a remainder of 22, or, to put it another way, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mn>3x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>2x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>6</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mtext>22</m:mtext><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3x rSup { size 8{2} } +2x+6+ {  {"22"}  over  {2x - 4} } } {}</m:annotation></m:semantics></m:math>.</para>
+    <section id="id7840851">
+      <title>Checking your answers</title>
+      <para id="id7840857">As always, checking your answers is not just a matter of catching careless errors: it is a way of making sure that you <emphasis>know what you have come up with</emphasis>. There are two different ways to check the answer to a division problem, and both provide valuable insight</para>
+      <para id="id7840876">The first is by plugging in numbers. We have created an algebraic generalization:</para>
+      <equation id="id7840883">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mn>6x</m:mn>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msup>
+                              <m:mn>8x</m:mn>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>4x</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>2x</m:mn>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mn>3x</m:mn>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>2x</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>6</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:mtext>22</m:mtext>
+                        <m:mrow>
+                          <m:mn>2x</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  {6x rSup { size 8{3} }  - 8x rSup { size 8{2} } +4x - 2}  over  {2x - 4} } =3x rSup { size 8{2} } +2x+6+ {  {"22"}  over  {2x - 4} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id7788845">In order to be valid, this generalization must hold for 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=3} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 4} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>ϖ</m:mi><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x={}} {}</m:annotation></m:semantics></m:math>,or any other value except 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=2} {}</m:annotation></m:semantics></m:math> (which is outside the domain). Let’s try 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=3} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id7711138">
+        <emphasis>Checking the answer by plugging in </emphasis>
+        <emphasis>
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{x=3} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </emphasis>
+      </para>
+      <equation id="element-395"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>8</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mover>
+                      <m:mrow>
+                        <m:mrow/>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>?</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mover>
+                    <m:mn>3</m:mn>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mfenced open="(" close=")">
+                          <m:mn>3</m:mn>
+                        </m:mfenced>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mfenced open="(" close=")">
+                          <m:mn>3</m:mn>
+                        </m:mfenced>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>6</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:mtext>22</m:mtext>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                          <m:mrow>
+                            <m:mfenced open="(" close=")">
+                              <m:mn>3</m:mn>
+                            </m:mfenced>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  {6 \( 3 \)  rSup { size 8{3} }  - 8 \( 3 \)  rSup { size 8{2} } +4 \( 3 \)  - 2}  over  {2 \( 3 \)  - 4} }  { {}={}}  cSup { size 8{?} } 3 left (3 right ) rSup { size 8{2} } +2 left (3 right )+6+ {  {"22"}  over  {2 left (3 right ) - 4} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation><equation id="element-913"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mtext>162</m:mtext>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mtext>72</m:mtext>
+                          </m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mtext>12</m:mtext>
+                        </m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mover>
+                      <m:mrow>
+                        <m:mrow/>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>?</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mover>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mtext>27</m:mtext>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>6</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>6</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:mtext>22</m:mtext>
+                        <m:mrow>
+                          <m:mn>6</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  {"162" - "72"+"12" - 2}  over  {6 - 4} }  { {}={}}  cSup { size 8{?} } "27"+6+6+ {  {"22"}  over  {6 - 4} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      
+      <equation id="id3237924">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mtext>100</m:mtext>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:mover>
+                      <m:mrow>
+                        <m:mrow/>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>?</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mover>
+                    <m:mrow>
+                      <m:mtext>39</m:mtext>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:mtext>22</m:mtext>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {  {"100"}  over  {2} }  { {}={}}  cSup { size 8{?} } "39"+ {  {"22"}  over  {2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="id3241121"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtext>50</m:mtext>
+                    <m:mover>
+                      <m:mrow>
+                        <m:mrow/>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mi>?</m:mi>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mover>
+                    <m:mrow>
+                      <m:mtext>39</m:mtext>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>11</m:mtext>
+                      <m:mo>✓</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{"50" { {}={}}  cSup { size 8{?} } "39"+"11"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id3232590">The second method is by multiplying back. Remember what division is: it is the opposite of multiplication! If 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mfrac><m:mtext>745</m:mtext><m:mn>3</m:mn></m:mfrac></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"745"}  over  {3} } } {}</m:annotation></m:semantics></m:math> is 248 with a remainder of 1, that means that 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>248</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"248" cdot 3} {}</m:annotation></m:semantics></m:math> will be 745, with 1 left over. Similarly, if our long division was correct, then 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:msup><m:mn>3x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>2x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>6</m:mn></m:mrow></m:mfenced><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mfenced><m:mo stretchy="false">+</m:mo><m:mtext>22</m:mtext></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (3x rSup { size 8{2} } +2x+6 right ) left (2x - 4 right )+"22"} {}</m:annotation></m:semantics></m:math> 
+should be 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mn>6x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mn>8x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>4x</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6x rSup { size 8{3} }  - 8x rSup { size 8{2} } +4x - 2} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="id3242098">
+        <emphasis>Checking the answer by multiplying back</emphasis>
+      </para>
+      <equation id="id3242105">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfenced open="(" close=")">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mn>3x</m:mn>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>2x</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>6</m:mn>
+                      </m:mrow>
+                    </m:mfenced>
+                    <m:mrow>
+                      <m:mfenced open="(" close=")">
+                        <m:mrow>
+                          <m:mn>2x</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>22</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ left (3x rSup { size 8{2} } +2x+6 right ) left (2x - 4 right )+"22"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="id7709382">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mfenced open="(" close=")">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mn>6x</m:mn>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mtext>12</m:mtext>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>x</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:msup>
+                                  <m:mn>4x</m:mn>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>8x</m:mn>
+                            </m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mtext>24</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>22</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {}= left (6x rSup { size 8{3} }  - "12"x rSup { size 8{2} } +4x rSup { size 8{2} }  - 8x - "24" right )+"22"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <equation id="id3241362"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mn>6x</m:mn>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msup>
+                            <m:mn>8x</m:mn>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>4x</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>✓</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ {}=6x rSup { size 8{3} }  - 8x rSup { size 8{2} } +4x - 2} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+    </section>
+  </content>
+</document>
