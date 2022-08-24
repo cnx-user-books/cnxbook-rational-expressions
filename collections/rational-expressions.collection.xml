@@ -1,3 +1,55 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xmlns:cnxml="http://cnx.rice.edu/cnxml" xml:lang="en" type="Course">  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">  <md:content-id>col11278</md:content-id>  <md:title>Rational Expressions</md:title>      <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>  <md:language>en</md:language>              <md:uuid>fe91a568-46f6-405f-9b14-ecf0847faff6</md:uuid>
-<md:slug>rational-expressions</md:slug>
-</metadata>  <col:content>          <col:module document="m18304">        <col:featured-links>                      <cnxml:link-group type="example">              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/rational-expressions-and-functions/t/introduction-to-rational-functions">Rational Functions Video</cnxml:link>              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/rational-expressions-and-functions/t/definition-and-domain-of-a-rational-expression">Rational Expressions Video</cnxml:link>            </cnxml:link-group>                  </col:featured-links>      </col:module>                            <col:module document="m18296">        <col:featured-links>                      <cnxml:link-group type="example">              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/rational-expressions-and-functions/t/simplifying-rational-functions-with-factoring-and-gcfs">Simplifying Rational Functions Video</cnxml:link>              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/rational-expressions-and-functions/t/simplifying-complex-fractions">Simplifying Complex Fractions Video</cnxml:link>            </cnxml:link-group>                  </col:featured-links>      </col:module>                            <col:module document="m18301">        <col:featured-links>                      <cnxml:link-group type="example">              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/rational-expressions-and-functions/t/multiplying-and-dividing-rationals">Multiplying Rationals Video</cnxml:link>              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/rational-expressions-and-functions/t/multiplying-and-dividing-rationals">Multiplying Rationals Video</cnxml:link>            </cnxml:link-group>                  </col:featured-links>      </col:module>                            <col:module document="m18303">        <col:featured-links>                      <cnxml:link-group type="example">              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/rational-expressions-and-functions/t/adding-and-subtracting-rational-expressions">Adding and Subtracting Rational Expressions Video</cnxml:link>            </cnxml:link-group>                  </col:featured-links>      </col:module>                            <col:module document="m18302">        <col:featured-links>                      <cnxml:link-group type="example">              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/rational-expressions-and-functions/t/solving-a-rational-equation">Solving a Rational Equation Video</cnxml:link>              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/rational-expressions-and-functions/t/solving-a-rational-equation-for-a-parameter">Solving Equations with Rational Numbers Video</cnxml:link>              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/rational-expressions-and-functions/t/solving-rational-equations-with-like-denominators">Solving Rational Equations Video</cnxml:link>              <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/rational-expressions-and-functions/t/solving-rational-equations-with-unlike-denominators">Solving Rational Equations with Unlike Denominators Video</cnxml:link>            </cnxml:link-group>                  </col:featured-links>      </col:module>                            <col:module document="m18299"/>                    </col:content></col:collection>
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xmlns:cnxml="http://cnx.rice.edu/cnxml" xml:lang="en" type="Course" authors="Scott Starks">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col11278</md:content-id>
+    <md:title>Rational Expressions</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+    <md:language>en</md:language>
+    <md:uuid>fe91a568-46f6-405f-9b14-ecf0847faff6</md:uuid>
+    <md:slug>rational-expressions</md:slug>
+  </metadata>
+  <col:content>
+    <col:module document="m18304">
+      <col:featured-links>
+        <cnxml:link-group type="example">
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/rational-expressions-and-functions/t/introduction-to-rational-functions">Rational Functions Video</cnxml:link>
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/rational-expressions-and-functions/t/definition-and-domain-of-a-rational-expression">Rational Expressions Video</cnxml:link>
+        </cnxml:link-group>
+      </col:featured-links>
+    </col:module>
+    <col:module document="m18296">
+      <col:featured-links>
+        <cnxml:link-group type="example">
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/rational-expressions-and-functions/t/simplifying-rational-functions-with-factoring-and-gcfs">Simplifying Rational Functions Video</cnxml:link>
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/rational-expressions-and-functions/t/simplifying-complex-fractions">Simplifying Complex Fractions Video</cnxml:link>
+        </cnxml:link-group>
+      </col:featured-links>
+    </col:module>
+    <col:module document="m18301">
+      <col:featured-links>
+        <cnxml:link-group type="example">
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/rational-expressions-and-functions/t/multiplying-and-dividing-rationals">Multiplying Rationals Video</cnxml:link>
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/rational-expressions-and-functions/t/multiplying-and-dividing-rationals">Multiplying Rationals Video</cnxml:link>
+        </cnxml:link-group>
+      </col:featured-links>
+    </col:module>
+    <col:module document="m18303">
+      <col:featured-links>
+        <cnxml:link-group type="example">
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/rational-expressions-and-functions/t/adding-and-subtracting-rational-expressions">Adding and Subtracting Rational Expressions Video</cnxml:link>
+        </cnxml:link-group>
+      </col:featured-links>
+    </col:module>
+    <col:module document="m18302">
+      <col:featured-links>
+        <cnxml:link-group type="example">
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/rational-expressions-and-functions/t/solving-a-rational-equation">Solving a Rational Equation Video</cnxml:link>
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra-2/u/rational-expressions-and-functions/t/solving-a-rational-equation-for-a-parameter">Solving Equations with Rational Numbers Video</cnxml:link>
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/rational-expressions-and-functions/t/solving-rational-equations-with-like-denominators">Solving Rational Equations Video</cnxml:link>
+          <cnxml:link url="http://www.brightstorm.com/d/math/s/algebra/u/rational-expressions-and-functions/t/solving-rational-equations-with-unlike-denominators">Solving Rational Equations with Unlike Denominators Video</cnxml:link>
+        </cnxml:link-group>
+      </col:featured-links>
+    </col:module>
+    <col:module document="m18299"/>
+  </col:content>
+</col:collection>
